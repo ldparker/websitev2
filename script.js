@@ -22,8 +22,20 @@ $(document).ready(function() {
         $(this).removeClass('hovered');
     });
     
+    $('#button1').click(function() {
+        $('.library').slideToggle(500);
+    });
+    
+    $('#button2').click(function() {
+        $('.youtube').slideToggle(500);
+    });
+    
+    $('#button3').click(function() {
+        $('.hometown').slideToggle(500);
+    });
     
     
+  
 });
         
 }());
