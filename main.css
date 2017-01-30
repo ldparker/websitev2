@@ -127,6 +127,8 @@ h1 {
 
 h2 {
     font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    
 }
 
 p {
@@ -277,9 +279,88 @@ button:hover span:after {
     min-height: 100%;
     opacity: 0.9;
     margin: 0;
-    background-color: chocolate;
+    background-color: darkgrey;
     margin: 0;
-} 
+    display: inline-block;
+    padding-bottom: 50px;
+}
+
+.centeralign {
+    text-align: center;
+}
+
+.centeralign img {
+}
+
+.interestscyclecontainer {
+    width: 50%;
+    height: 100%;
+    float: left;
+    /*background-color: dodgerblue;*/
+    display: inline-block;
+    padding-bottom: 75px;
+}
+
+.cyclepic {
+}
+
+.cycleblurb {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.interestsclimbcontainer {
+    width: 50%;
+    height: 100%;
+    float: right;
+    /*background-color: red;*/
+    padding-bottom: 75px;
+}
+
+.climbpic {
+}
+
+.climbblurb {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.interestsskicontainer {
+    width: 50%;
+    height: 100%;
+    float: left;
+    /*background-color: mediumspringgreen;*/
+}
+
+.skipic {
+}
+
+.skiblurb {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.interestssurfcontainer {
+    width: 50%;
+    height: 100%;
+    float: right;
+    /*background-color: yellow;*/   
+}
+
+.surfpic {
+
+}
+
+.surfblurb {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+
+
+
+
 
 .projectsbanner {
     height: 200%;
@@ -375,17 +456,6 @@ button:hover span:after {
     float: right;
     width: 68%;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 .footerbanner {
     height: 25%;
