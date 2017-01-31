@@ -7,7 +7,7 @@ body {
     height: 100%;
     min-height: 100%;
     position: relative;
-    min-width: 1000px;
+    min-width: 1200px;
 }
 
 .headeroutter {
@@ -16,7 +16,7 @@ body {
     text-align: center;
     overflow-y: hidden;
     position: relative;
-    background-image: url(background2.jpg);
+    background-image: url(background2-optimized.jpg);
     background-attachment:fixed;
     background-size: cover;
 }
@@ -112,10 +112,12 @@ body {
 
 /*About section*/
 .aboutoutter {
-    height: 98%;
-    overflow-y: hidden;
+    height: 800px;
+    width: 100%;
     position: relative;
     background-color: ;
+    min-height: 800px;
+    text-overflow: ellipsis; 
 }
 
 h1 {
@@ -141,15 +143,16 @@ ul {
 
 .twothirds {
     height: 100%;
-    width: 60%;
+    width: 59%;
     position: relative;
     display: inline-block;
-    background-color: black;
+    background-color: ;
+    float: left;
 }
 
 .lastthird {
     height: 100%;
-    width: 40%;
+    width: 39%;
     position: relative;
     display: inline-block;
     float: right;
@@ -167,27 +170,32 @@ ul {
     font-style: ;
     height: 200%;
     width: 100%;
+    position: relative;
 }
 
 .aboutcontent {
-    color: white;
+    color: black;
     letter-spacing: 1px;
     line-height: 125%;
     position: relative;
 }
-
 
 /* buttons! */
 /*need to fix position of buttons on the page */
 .buttonsmargins {
     padding-left: 150px;
     padding-right: 150px;
-    padding-bottom: 5px;
-    padding-top: -50px;
+    padding-bottom: 25px;
+    padding-top: 0px;
+    margin-top: 0px;
+    position: relative;
+    width: 50%;
 }
 
 .buttons {
     padding-left: 10%;
+    position: relative;
+    padding-top: 50px;
 }
 
 button {
@@ -236,6 +244,7 @@ button:hover span:after {
     display: none;
     position: relative;
     border-color: black;
+    width: 150%;
 }
 
 .liblist {
@@ -254,12 +263,14 @@ button:hover span:after {
 .youtube {
     position: relative;
     display: none;
+    width: 163%;
 
 }
 
 .hometown {
     position: relative;
     display: none;
+    width: 150%;
 
 }
 
@@ -363,7 +374,7 @@ button:hover span:after {
 
 
 .projectsbanner {
-    height: 200%;
+    height: 1650px;
     width: 100%;
     position: relative;
     background-color: ;
@@ -465,6 +476,9 @@ button:hover span:after {
     background-size: cover;
     background-position: center;
     text-align: center;
+    margin: 0;
+    bottom: ;
+    
 }
 
 .footerbanner h2 {
